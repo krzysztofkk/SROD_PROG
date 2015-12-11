@@ -4093,6 +4093,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li > a {
   border-radius: 4px;
 }
+.nav-pills > li.round > a {
+  border-radius: 30px;
+  margin-left: 6px;
+  margin-right: 6px;
+  background-color: #B0C4DE;
+}
+.nav-pills > li.round > a:hover,
+.nav-pills > li.round > a:focus {
+  color: #fff;
+  background-color: #A6A8CF;
+}
+
 .nav-pills > li + li {
   margin-left: 2px;
 }
